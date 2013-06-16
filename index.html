@@ -20,6 +20,7 @@
       body {
         height: 100%;
         /* The html and body elements cannot have any padding or margin. */
+        padding-top: 60px;
       }
 
       /* Wrapper for page content to push down footer */
@@ -38,7 +39,7 @@
          background-color: #252525;
          color: #ffcc00;
       }
-
+      
       /* Lastly, apply responsive CSS fixes as necessary */
       @media (max-width: 767px) {
         .footer {
@@ -74,14 +75,16 @@
                 </div>
             </div>
         </div>
+   
         <div class="container">
             <!-- Main content area -->
 
             <div class="container-fluid">
             
-                <div class="row-fluid">
-                    <div class="span4 well">
-                        <a href="http://www.apress.com/9781430239390"><img alt="Pro Arduino" src="./assets/img/proarduino.jpg" class="img-polaroid" /></a>
+                <div class="row-fluid thumbnails">
+                    <div class="span4 well thumbnail">
+                       <!-- <img data-src="./components/holderjs/holder.js/300x200" alt="">-->
+                        <a href="http://www.apress.com/9781430239390"><img alt="Pro Arduino" src="./assets/img/proarduino.jpg" class="img-polaroid" width="25%" height="25%" /></a>
                         <p>
                             <a href="https://github.com/ricklon">Rick Anderson</a>
                         </p>
@@ -102,7 +105,39 @@
                     </div>
                     <div class="span4 well">
                         <div class="container">
-                            <p>Chapter 14</p>
+                          <p>Chapter 7: PID Controllers</p>
+                            <p>Repositories in project.</p>
+                             <ul>
+                                <li>
+                                    <a href="https://github.com/ProArd/pidtuner">PID Tuner</a>
+                                </li>
+                            </ul>
+                      </div>
+                      </div>
+                    </div>
+                <div class="row-fluid">
+                        <div class="span4 well">
+                            <p>Chapter 12: Arduino libraries: How to help others use your code</p>
+                            <p>Repositories in project.</p>
+                             <ul>
+                                <li>
+                                    <a href=" https://github.com/ProArd/ds1631">DS1631 i2c Temperature Sensor Library</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="span4 well">
+                        
+                            <p>Chapter 13: Arduino Test Suite</p>
+                            <p>Repositories in project.</p>
+                             <ul>
+                                <li>
+                                   
+                                </li>
+                            </ul>
+                        </div>
+            
+                        <div class="span4 well">
+                        <p>Chapter 14</p>
                             <p>Virtual World Objects and Arduino Devices with Unity 4.0</p>
                             <p>Chapter 14: Repositories in project.</p>
                             <ul>
@@ -114,18 +149,8 @@
                                 </li>
                                 <li>Box Bomber Example</li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="row-fluid">
-                        <div class="span4 well">
-                            <p>Chapter 4</p>
-                            <p>Chapter 4: Repositories in project.</p>
-                        </div>
-                        <div class="span4 well">
-                            <p>Chapter 5</p>
-                            <p>Chapter 5: Repositories in project.</p>
-                        </div>
-                    </div>
+                        </div> 
+                    </div> 
                 </div>
             </div>
             </div>
